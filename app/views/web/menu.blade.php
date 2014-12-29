@@ -1,6 +1,10 @@
 @extends('layouts/layout')
 
 @section('content')
+<div class="menu-item">
+    <a href="{{ route('producto', 8)}}">Licor de Cafe</a>
+    <a href="{{ route('producto', 9)}}">Coktel Margarita</a>
+</div>
     <!--div class="submenu" id="submenu" style="display:none">
         <ul>
                 <li><a href="{{ route('producto', 1)}}">Donají Joven</a></li>
