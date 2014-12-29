@@ -27,8 +27,12 @@
 				<div id="aright">
 					{{ $producto->contenidoacta2 }}
 				</div>
+
 			</div>
 			@endif
+			<div>
+				<div class="cerrado link-tradicion ">visita: {{ HTML::link('http://tradicionchagoya.com/','www.tradicionchagoya.com') }}</div>
+			</div>
 		</div>
 	</div>
 </div>
